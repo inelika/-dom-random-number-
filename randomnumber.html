@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="dm.css">
+</head>
+<body>
+    <div class="wrapper">
+       <form id="randomForm">
+        <h1>Your random number is:</h1>
+        <h2 id="randomNumber"></h2>
+
+        <label for="lower">Lower limit:</label>
+        <input type="number" id="lower" placeholder="Enter value" required>
+
+        <label for="upper">Upper limit:</label>
+        <input type="number" id="upper" placeholder="Enter value" required>
+
+        <button type="submit" id="generate">Generate</button>
+        <button type="reset" id="clear">Clear</button>
+       </form>
+    </div>
+    <script src="dm.js"></script>
+</body>
+</html>
